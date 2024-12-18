@@ -1,0 +1,19 @@
+.MuiInputBase-input {
+    padding: 12px 14px;
+}
+
+.MuiFormControl-root.MuiTextField-root, .MuiFormControl-root.MuiFormControl-fullWidth{
+    margin-top: 8px !important;
+}
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-formControl {
+    top: -9px;
+}
+
+.MuiGrid-item {
+    padding-top: 20px !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+    border-radius: 8px;
+}

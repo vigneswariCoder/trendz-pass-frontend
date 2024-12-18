@@ -1,0 +1,84 @@
+.mui-grid-table{
+     width: 100%;
+}
+
+.mui-grid-table .MuiDataGrid-cell,
+.mui-grid-table .MuiDataGrid-root,
+.mui-grid-table .MuiDataGrid-main,
+.mui-grid-table .MuiDataGrid-footerContainer,
+.mui-grid-table .css-tgsonj {
+    border: unset !important;
+}
+
+.mui-grid-table .MuiSvgIcon-root {
+    width: 16px !important;
+}
+
+.mui-grid-table .MuiDataGrid-columnHeader:focus,
+.mui-grid-table .MuiDataGrid-cell:focus,
+.mui-grid-table .MuiDataGrid-columnHeader:focus-within,
+.mui-grid-table .MuiDataGrid-cell:focus-within {
+    outline: unset !important;
+}
+
+.mui-grid-table .MuiDataGrid-row.Mui-selected {
+    background-color: rgb(51 255 142 / 8%) !important;
+}
+
+.Mui-checked,
+.MuiCheckbox-indeterminate {
+    color: #22C55D !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+    color: #A1A1A1;
+    font-size: 12px;
+    font-weight: 500 !important;
+    letter-spacing: -0.02em;
+}
+
+.MuiDataGrid-overlayWrapperInner {
+    height: 100px !important;
+}
+
+.MuiDataGrid-overlay{
+    margin: 70px 0;
+}
+
+/* table.css */
+/* .mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader,
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell {
+  position: sticky;
+  z-index: 1;
+} */
+
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader[data-field="checkboxSelection"],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell[data-field="checkboxSelection"],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader[data-field="action"],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell[data-field="action"],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader[data-field=""],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell[data-field=""] {
+  z-index: 2;
+}
+
+/* .mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader[data-field="checkboxSelection"],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell[data-field="checkboxSelection"] {
+  left: 0;
+  background-color: white;
+} */
+
+/* .mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader[data-field="action"],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell[data-field="action"] {
+  right: 50px;
+  background-color: white;
+} */
+
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-columnHeader[data-field=""],
+.mui-grid-table .MuiDataGrid-root .MuiDataGrid-cell[data-field=""] {
+  right: 0;
+  background-color: white;
+}
+
+.mui-grid-table .MuiDataGrid-main  {
+min-height: 55vh;
+}

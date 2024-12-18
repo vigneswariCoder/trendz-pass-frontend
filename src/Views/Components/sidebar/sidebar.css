@@ -1,0 +1,221 @@
+.side-container {
+  margin: 20px 20px 20px 230px;
+  padding: 20px;
+  background: #fafafa;
+  height: 88vh;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.sidebar {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 35px 0;
+  color: #fff;
+  height: 100vh;
+  position: fixed;
+  width: 220px;
+  top: 0px;
+  text-align: center;
+  z-index: 1000;
+  /* border-right: 2px dashed #ddd; */
+}
+
+
+.sidebar_css li {
+  margin-bottom: 10px;
+  display: flex;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.sidebar_active {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff !important;
+  text-decoration: unset;
+  background-color: #ffffff6e;
+  border-radius: 30px;
+}
+
+.sidebar_css a {
+  color: #ffffff;
+  text-decoration: unset;
+
+}
+
+.objective-canvas .ant-drawer-close {
+  position: absolute !important;
+  right: 10px !important;
+}
+
+.objective-canvas .ant-drawer-title {
+  color: #42cbe7;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: normal;
+  font-family: "ReadexPro-semiBold" !important;
+}
+
+.canvas-objective-title {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "ReadexPro-Regular" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.canvas-objective-input .ant-input-outlined {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "ReadexPro-Regular" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 4px !important;
+  background: #efefee !important;
+  padding: 8px 8px !important;
+  border: 0 !important;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #47e0ff !important;
+  background-color: #fff;
+  background-size: 100% 100%;
+}
+
+.ant-radio-wrapper .ant-radio-inner::after {
+  inset-block-start: unset !important;
+  inset-inline-start: unset !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: #47e0ff !important;
+}
+
+.cust-date {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.assign-members-input {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 14px;
+  border-radius: 4px !important;
+  background: #efefee !important;
+  padding: 10px 8px !important;
+  border: 0 !important;
+}
+
+.memberselect-section .ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 10px;
+  border: 2px dashed rgba(0, 0, 0, 0.3) !important;
+}
+
+.memberselect-section .ant-tag.css-dev-only-do-not-override-1b0bdye {
+  border-radius: 15px;
+}
+
+.memberselect-section .anticon.anticon-close.ant-tag-close-icon {
+  position: relative;
+  bottom: 6px;
+}
+
+.memberselect-section .ant-select-selection-overflow-item {
+  margin: 5px 0;
+}
+
+.memberselect-section .ant-tag {
+  background-color: unset;
+}
+
+.upload-section .upload-text {
+  color: #a1a1a1;
+}
+
+.upload-section .ant-upload-wrapper .ant-upload-drag {
+  background-color: transparent;
+}
+
+.objective-cancel-btn {
+  border: 0;
+  box-shadow: none;
+}
+
+.objective-submit-btn {
+  border-radius: 4px;
+  background: #47e0ff;
+  box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.16);
+  color: #000;
+  text-align: center;
+  text-shadow: 2px 1px 0px rgba(255, 255, 255, 0.24);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 40px;
+}
+
+.upload-section .ant-upload-drag-container {
+  display: flex !important;
+  justify-content: center;
+}
+
+.Submit-section {
+  float: inline-end;
+}
+
+.objective-cycle-inner span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* .sidebar_css li:hover {
+  background-color: #ededee;
+  border: 1px solid #dcdcde;
+  border-radius: 8px;
+} */
+.sidebar ul {
+  height: 100vh;
+  /* height: 100px; */
+  /* max-height: 110px; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sidebar ul::-webkit-scrollbar {
+  background-color: transparent;
+  width: 7px;
+}
+
+.sidebar ul::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  border-radius: 10px;
+}
+
+.sidebar ul::-webkit-scrollbar-track {
+  height: 10px !important;
+}
+
+.logo-name p {
+  color: #fff !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .objective-cycle-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .side-container {
+    margin: 0px;
+  }
+}

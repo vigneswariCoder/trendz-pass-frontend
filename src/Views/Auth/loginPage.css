@@ -1,0 +1,120 @@
+.login_page {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  background: #fff;
+  overflow: hidden;
+  /* background: linear-gradient(299deg, #22C55D 64%, #ffffff 64%); */
+}
+
+.login_bg {
+  align-self: center;
+  background: #fff;
+  /* border: 5px solid #22838f; */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.login_bg:hover {
+  /* border: 5px solid #22838f; */
+  padding: 20px;
+  border-radius: 15px;
+  /* box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.16); */
+}
+
+.login-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px 30px;
+}
+
+.signin_btn {
+  /* background: #22848f; */
+  color: #fff;
+  border: none;
+  padding: 6px;
+  /* margin: 10px; */
+  border-radius: 5px;
+}
+
+.signin_btn:hover {
+  /* background: #22848f; */
+  color: #fff;
+  border: none;
+  padding: 6px;
+  /* margin: 10px; */
+  border-radius: 5px;
+}
+
+.login_bg input {
+  border: unset;
+  background: #81dda24a !important;
+  border-radius: 27px !important;
+  font-size: 14px !important;
+}
+
+.login_bg input:hover {
+  border: unset;
+  background: aliceblue !important;
+  border-radius: 27px !important;
+}
+
+.login_bg .MuiOutlinedInput-notchedOutline {
+  border: unset;
+}
+
+.login_bg .MuiInputBase-input {
+  padding: 10px 20px !important;
+}
+
+.circle-container {
+  position: relative;
+}
+
+.circle {
+  border-radius: 50% 0 0 50%;
+  clip-path: inset(0 40% 0 0);
+  margin: 0 5px;
+  position: absolute;
+}
+
+.light {
+  background: #00000029;
+  right: -24vw;
+  top: -10vh;
+  width: 62vw;
+  height: 120vh;
+}
+
+.medium {
+  background-color: #00000040;
+  right: -24vw;
+  top: -8vh;
+  width: 56vw;
+  height: 117vh;
+}
+
+.dark {
+  background-color: #0000006e;
+  right: -33vw;
+  top: -8vh;
+  width: 59vw;
+  height: 115vh;
+}
+
+.darker {
+  background-color: #000000;
+  right: -33vw;
+  width: 52vw;
+  top: -2vh;
+  height: 104vh;
+}
+
+@media (min-width:768px) {
+  .login_bg {
+    width: 30vw;
+    margin-left: 10vw;
+  }
+}
